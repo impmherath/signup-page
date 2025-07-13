@@ -10,11 +10,11 @@
     <form>
         <table> 
             <tr>
-                <td class="heading">Signup</td>
+                <td colspan="2" class="heading">Signup</td>
             </tr>
             <tr>
                 <td><label for="fname">First Name</label></td>
-                <td><input type="text" name="fname" placeholder="first name"> </td>
+                <td><input type="text" name="fname" placeholder="first name" style="width: 100%;" > </td>
             </tr>
 
 
@@ -22,7 +22,7 @@
             
         <tr>
                 <td><label for="lname">Last Name</label></td>
-                <td><input type="text" name="lname" placeholder="last name"> </td>
+                <td><input type="text" name="lname" placeholder="last name" style="width: 100%;" > </td>
             </tr>
             <tr>
                 <td><label for="dob">Date Of Birth</label></td>
@@ -66,11 +66,12 @@
         
                 </select>
 
-             </td>
+                </td>
 
-            </td>
+            
 
-               <td><select name="month" id="month">
+               <td>
+                <select name="month" id="month">
                 <option value="0">Month</option>
                 <option value="1">January</option>
                 <option value="2">February</option>
@@ -85,7 +86,7 @@
                 <option value="11">November</option>
                 <option value="12">December</option>
                </select> 
-            </td>
+             </td>
 
 
             <td>
@@ -108,7 +109,7 @@
                 <option value="1">2013</option>
                 <option value="1">2014</option>
                </select>
-            </td>
+             </td>
             </tr>
 
             <tr>
@@ -127,17 +128,17 @@
 
             <tr>
                 <td><label for="password">Password</label> </td>
-                <td><input type="password" name="password"> </td>
+                <td><input type="password" name="password" class="password">  </td>
             </tr>
             <tr>
                 <td><label for="confirm password">Confirm password</label> </td>
-                <td><input type="password" name="password"> </td>
+                <td><input type="password" name="password" class="password" > </td>
             </tr>
 
             <td><input type="checkbox">I agree to the terms </td>
 
             <tr>
-                <td class="submit">
+                <td class="heading" colspan="2" >
                 <button type="submit" class="btn" id="btn_submit"> Submit</button>
                 <button type="clear" class="btn" id="btn_clear"> Cancel</button> </td>
             </tr>
